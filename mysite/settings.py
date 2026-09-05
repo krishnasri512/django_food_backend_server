@@ -130,4 +130,4 @@ MAILERS = {
 }
 
 
-CORS_ALLOWED_ORIGINS=['http://localhost:5173/','.vercel.app']
+CORS_ALLOWED_ORIGINS=['http://localhost:5173/','https://food-restranant.vercel.app/']
