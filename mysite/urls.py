@@ -31,5 +31,6 @@ urlpatterns = [
     path('app/',mypage.apppage),
     path('myntrapage/',app.myntra),
     path('productspage/',mypage.products),
+    path('students/',mypage.get_students)
     
    ] 

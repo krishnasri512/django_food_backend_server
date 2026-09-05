@@ -1281,3 +1281,7 @@ def apppage(request):
     return render(request,"demo.html")
 
 
+def get_students(request):
+    return render(request,"students.html",{'names':[{'name':"krishna",'age':20,'gender':"female"},
+                                                  {'name':"Pandu",'age':21,'gender':"male"},
+                                                  {'name':"Yashu",'age':8,'gender':"female"}]})

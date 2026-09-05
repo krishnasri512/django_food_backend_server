@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- {{names}} data access chesukovochu -->
+     {%for each in names%}    
+        <h1>name:{{each.name}}</h1>
+        <h1>age:{{each.age}}</h1>
+        <h1>gender:{{each.gender}}</h1>
+        <hr/>
+     {%endfor%}
+    <h1>This is students profiles</h1>
+
+    <!-- {}  means iterate avali   
+    %  loop start and end avuthund
+    {%endfor%} means for loop end avuthundi ani-->
+</body>
+</html>
